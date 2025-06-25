@@ -51,7 +51,7 @@ Partial Class Form1
         btnExit.Name = "btnExit"
         btnExit.Size = New Size(96, 25)
         btnExit.TabIndex = 2
-        btnExit.Text = "btnExit"
+        btnExit.Text = "Exit"
         btnExit.UseVisualStyleBackColor = True
         ' 
         ' Form1
