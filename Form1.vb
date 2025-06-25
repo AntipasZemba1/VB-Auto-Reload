@@ -4,6 +4,7 @@
     End Sub
 
     Private Sub btnCalculate_Click(sender As Object, e As EventArgs) Handles btnCalculate.Click
+        ' Calculates the car price when Calculate button is clicked
 
     End Sub
 
