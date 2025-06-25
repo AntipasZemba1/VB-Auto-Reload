@@ -24,7 +24,7 @@ Partial Class Form1
     Private Sub InitializeComponent()
         btnCalculate = New Button()
         btnClear = New Button()
-        Button3 = New Button()
+        btnExit = New Button()
         SuspendLayout()
         ' 
         ' btnCalculate
@@ -45,21 +45,21 @@ Partial Class Form1
         btnClear.Text = "Clear"
         btnClear.UseVisualStyleBackColor = True
         ' 
-        ' Button3
+        ' btnExit
         ' 
-        Button3.Location = New Point(362, 310)
-        Button3.Name = "Button3"
-        Button3.Size = New Size(96, 25)
-        Button3.TabIndex = 2
-        Button3.Text = "Button3"
-        Button3.UseVisualStyleBackColor = True
+        btnExit.Location = New Point(362, 310)
+        btnExit.Name = "btnExit"
+        btnExit.Size = New Size(96, 25)
+        btnExit.TabIndex = 2
+        btnExit.Text = "btnExit"
+        btnExit.UseVisualStyleBackColor = True
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(528, 362)
-        Controls.Add(Button3)
+        Controls.Add(btnExit)
         Controls.Add(btnClear)
         Controls.Add(btnCalculate)
         Name = "Form1"
@@ -69,6 +69,6 @@ Partial Class Form1
 
     Friend WithEvents btnCalculate As Button
     Friend WithEvents btnClear As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents btnExit As Button
 
 End Class
