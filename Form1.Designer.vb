@@ -29,7 +29,7 @@ Partial Class Form1
         ' 
         ' btnCalculate
         ' 
-        btnCalculate.Location = New Point(73, 310)
+        btnCalculate.Location = New Point(66, 311)
         btnCalculate.Name = "btnCalculate"
         btnCalculate.Size = New Size(96, 25)
         btnCalculate.TabIndex = 0
@@ -38,7 +38,7 @@ Partial Class Form1
         ' 
         ' btnClear
         ' 
-        btnClear.Location = New Point(214, 310)
+        btnClear.Location = New Point(207, 311)
         btnClear.Name = "btnClear"
         btnClear.Size = New Size(96, 25)
         btnClear.TabIndex = 1
@@ -47,7 +47,7 @@ Partial Class Form1
         ' 
         ' btnExit
         ' 
-        btnExit.Location = New Point(362, 310)
+        btnExit.Location = New Point(355, 311)
         btnExit.Name = "btnExit"
         btnExit.Size = New Size(96, 25)
         btnExit.TabIndex = 2
