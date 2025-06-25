@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB-Auto Reload", "VB-Auto Reload.vbproj", "{23E6F2AE-6DD1-45F9-83FA-D476CEB91FC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23E6F2AE-6DD1-45F9-83FA-D476CEB91FC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E6F2AE-6DD1-45F9-83FA-D476CEB91FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E6F2AE-6DD1-45F9-83FA-D476CEB91FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E6F2AE-6DD1-45F9-83FA-D476CEB91FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8371D7CD-5DE1-40A6-B69D-D0A6331AFCB8}
+	EndGlobalSection
+EndGlobal
