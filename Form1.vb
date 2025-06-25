@@ -8,6 +8,7 @@
     End Sub
 
     Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
+        ' Clears all input and output fields and resets form controls
 
     End Sub
 End Class
