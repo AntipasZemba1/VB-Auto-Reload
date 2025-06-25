@@ -22,19 +22,19 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Button1 = New Button()
+        btnCalculate = New Button()
         Button2 = New Button()
         Button3 = New Button()
         SuspendLayout()
         ' 
-        ' Button1
+        ' btnCalculate
         ' 
-        Button1.Location = New Point(73, 310)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(96, 25)
-        Button1.TabIndex = 0
-        Button1.Text = "Button1"
-        Button1.UseVisualStyleBackColor = True
+        btnCalculate.Location = New Point(73, 310)
+        btnCalculate.Name = "btnCalculate"
+        btnCalculate.Size = New Size(96, 25)
+        btnCalculate.TabIndex = 0
+        btnCalculate.Text = "Calculate"
+        btnCalculate.UseVisualStyleBackColor = True
         ' 
         ' Button2
         ' 
@@ -61,13 +61,13 @@ Partial Class Form1
         ClientSize = New Size(528, 362)
         Controls.Add(Button3)
         Controls.Add(Button2)
-        Controls.Add(Button1)
+        Controls.Add(btnCalculate)
         Name = "Form1"
         Text = "VB Auto Center"
         ResumeLayout(False)
     End Sub
 
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btnCalculate As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
 
